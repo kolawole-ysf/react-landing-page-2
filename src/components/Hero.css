@@ -1,0 +1,105 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.hero-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-content>div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.button{
+    display: flex;
+}
+button{
+    margin-right: 20px;
+}
+h1{
+    font-size: 56px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 8px black;
+    color: white;
+}
+h1 span{
+    color: orange;
+}
+.arrow{
+    margin-top: 100px;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(36, 35, 35);
+    line-height: 55px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .hero{
+        height: 70vh;
+    }
+    h1{
+        font-size: 40px;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 8px black;
+        color: white;
+    }
+    .hero-content{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .hero-content>div{
+        width: 100%;
+        padding: 0px 20px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .arrow{
+        top: 90%;
+        left: 60%;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: rgb(36, 35, 35);
+        line-height: 36px;
+        text-align: center;
+        position: absolute;
+    }
+    .arrow:nth-child(1){
+        left: 30%;
+    }
+    
+}

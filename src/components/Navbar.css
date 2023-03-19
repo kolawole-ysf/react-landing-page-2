@@ -1,0 +1,130 @@
+.header{
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 8px black;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+}
+.toggle{
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    background-color:white;
+    line-height: 55px;
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 28px;
+    color: rgb(175, 174, 174);
+    font-weight: 500;
+}
+ul li a.active{
+    color: black;
+    font-weight: bold;
+}
+.btn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+.btn-1{
+    outline: none;
+    border: 0;
+    background-color: white;
+    font-weight: bold;
+    color: green;
+}
+
+
+@media screen and (max-width: 800px) {
+    .toggle{
+        display: block;
+        margin-right: 20px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    .header{
+        padding: 0px 20px;
+    }
+    .navbar{
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    .navlist{
+        /* display: none; */
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        width: 250px;
+        height: 60vh;
+        transform: translateX(250px);
+        background-color: white;
+        top: 80px;
+        right: 0;
+        padding: 20px 10px;
+        border-radius: 0px 0px 0px 24px;
+        transition: all .7s ease-in-out;
+    }    
+    .navlist.active{
+        /* display: block; */
+       transform: translateX(0);
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0;
+
+    }
+    ul li{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .btn{
+       display: none;
+    }
+    
+    
+}
