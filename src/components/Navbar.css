@@ -95,7 +95,7 @@ ul li a.active{
         justify-content: flex-start;
         position: absolute;
         width: 250px;
-        height: 60vh;
+        height: 100vh;
         transform: translateX(250px);
         background-color: white;
         top: 80px;
@@ -119,7 +119,7 @@ ul li a.active{
     }
     ul li{
         font-size: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
     .btn{
