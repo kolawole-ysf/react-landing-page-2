@@ -23,7 +23,7 @@ const Testimony = ({testCard}) => {
             })}
             
         </div> 
-        <span className='btn'>Register As an Agent</span>     
+        <span className='btn1'>Register As an Agent</span>     
     </div>
   )
 }

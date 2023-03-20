@@ -1,5 +1,6 @@
 .testimony{
     width: 100%;
+    min-height: 60vh;
     padding: 40px 0px;
     background-color: lightgray;
     display: flex;
@@ -55,4 +56,14 @@
 }
 .t-body span{
     font-weight: bold;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 200px;
+    text-align: center;
+    font-size: 18px;
 }

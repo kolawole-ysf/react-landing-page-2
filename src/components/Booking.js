@@ -26,7 +26,7 @@ const Booking = () => {
                     <li><FaHome style={{marginRight: 10, color: "green"}} />Workshop / Training</li> 
                 </ul>
             </div>
-            <span className='btn'>Consult</span>
+            <span className='btn1'>Consult</span>
         </div>
         <div className='agent'>
             <img src='https://www.salesforce.com/content/dam/blogs/uk/2017/customer-service-tech-agents-600.jpg' className="agent-img" alt='' />

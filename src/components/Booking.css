@@ -154,7 +154,7 @@
     top: 60%;
     transform: translate(-60%,-60%);
 }
-.btn{
+.booking .btn1{
     background-color: green;
     color: white;
     padding: 10px;
@@ -163,7 +163,9 @@
     min-width: 200px;
     text-align: center;
     font-size: 18px;
+   margin-left: 30%;
 }
+
 
 
     
@@ -244,7 +246,7 @@
     top: 60%;
     transform: translate(-60%,-60%);
 }
-.btn{
+.booking .btn1{
     background-color: green;
     color: white;
     padding: 10px;
@@ -253,8 +255,6 @@
     min-width: 200px;
     text-align: center;
     font-size: 18px;
-}
-
-
-    
+    margin-left: 30%;
+} 
 }
